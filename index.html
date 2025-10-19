@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digital Justice Portal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <!-- AOS for scroll reveal -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="https://i.pinimg.com/736x/3a/fe/59/3afe59b9cf3db3aab04933c5187e26ee.jpg" alt="logo" class="logo">
+        <div>
+          <h1>Digital Justice Portal</h1>
+          <p class="tagline">Accessible. Transparent. Trusted.</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li class="dropdown">
+            <a href="#services" class="dropbtn">Services ▾</a>
+            <ul class="dropdown-content">
+              <li><a href="#services">Case Lookup</a></li>
+              <li><a href="#services">eFiling</a></li>
+              <li><a href="#services">Hearings</a></li>
+            </ul>
+          </li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="cta">Sign In</button>
+        <button class="hamburger" aria-label="menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero" style="background-image: linear-gradient(135deg, rgba(30,58,138,0.85), rgba(37,99,235,0.75)), url('https://images.unsplash.com/photo-1529429617124-3f1f2f2c24b3?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder');">
+      <div class="container hero-inner" data-aos="fade-up">
+        <h2>Justice delivered digitally</h2>
+        <p>Find case information, files and court updates quickly and securely.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#services">Search Cases</a>
+          <a class="btn ghost" href="#contact">Contact Support</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about" data-aos="fade-up">
+      <div class="container grid">
+        <div class="card about-text">
+          <h3>About the Portal</h3>
+          <p>The Digital Justice Portal is designed to make court information accessible to the public and legal professionals. We provide secure access to case files, hearing schedules, and official resources while ensuring privacy and reliability.</p>
+          <ul class="features">
+            <li>Public case search & details</li>
+            <li>Secure e-filing and payment guidance</li>
+            <li>Real-time hearing schedules</li>
+          </ul>
+        </div>
+        <div class="about-image" data-aos="zoom-in">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSew44uZbZJK0Z4goiXAHnex7z1WVcSQzOCg&s" alt="court building" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services" data-aos="fade-up">
+      <div class="container">
+        <h3 class="section-title">Our Services</h3>
+        <div class="cards">
+          <article class="service-card" data-aos="fade-up" data-aos-delay="50">
+            <img src="https://psc.nd.gov/images/casesearch.jpg" alt="">
+            <h4>Case Lookup</h4>
+            <p>Search public case records and download available documents.</p>
+            <a class="card-btn" href="#contact">Get Started</a>
+          </article>
+
+          <article class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/knowledge-center/images/tax/Your-Complete-Guide-to-E-Filing-in-ITAT.jpg" alt="">
+            <h4>eFiling Guidance</h4>
+            <p>Step-by-step instructions and upload portal links for filings.</p>
+            <a class="card-btn" href="#contact">Learn More</a>
+          </article>
+
+          <article class="service-card" data-aos="fade-up" data-aos-delay="150">
+            <img src="https://i.ytimg.com/vi/yYCPTbXCfEY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB5laSq_1csuGO_PGBXBdCtRog8sw" alt="">
+            <h4>Hearing Schedules</h4>
+            <p>Browse and subscribe to hearing calendars across courts.</p>
+            <a class="card-btn" href="#contact">View Schedules</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="updates" class="section updates" data-aos="fade-up">
+      <div class="container">
+        <h3 class="section-title">Latest Court Updates</h3>
+        <div class="updates-list">
+          <div class="update">
+            <div class="update-meta">Oct 01, 2025</div>
+            <div class="update-body"><strong>New eFiling window:</strong> The portal now accepts civil filings in PDF/A format.</div>
+          </div>
+          <div class="update">
+            <div class="update-meta">Sep 12, 2025</div>
+            <div class="update-body"><strong>Hearing alerts:</strong> Subscribe to SMS or email hearing reminders.</div>
+          </div>
+          <div class="update">
+            <div class="update-meta">Aug 30, 2025</div>
+            <div class="update-body"><strong>Maintenance:</strong> Scheduled downtime for system upgrades on Sep 5.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" data-aos="fade-up">
+      <div class="container grid">
+        <div class="contact-card">
+          <h3>Contact Support</h3>
+          <p>Need help with case search, filings, or access? Reach out to our support team.</p>
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent (demo).');">
+            <input type="text" placeholder="Full name" required>
+            <input type="email" placeholder="Email address" required>
+            <textarea placeholder="How can we help?" rows="4" required></textarea>
+            <button class="btn primary" type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h4>Office</h4>
+          <p>123 Justice Ave, Capital City</p>
+          <h4>Phone</h4>
+          <p>+1 (555) 123-4567</p>
+          <h4>Follow</h4>
+          <p class="social">
+            <a href="#" aria-label="twitter">Twitter</a> · <a href="#" aria-label="facebook">Facebook</a> · <a href="#" aria-label="linkedin">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Digital Justice Portal — Built for better access to justice.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
